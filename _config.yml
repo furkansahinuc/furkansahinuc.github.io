@@ -22,9 +22,16 @@ url: "https://furkansahinuc.github.io" # the base hostname & protocol for your s
 twitter_username: Furkansahinuc
 github_username:  furkansahinuc
 
+# Fields minima uses, but are not defaulted with the jekyll new command.
+author: Furkan Şahinuç
+
+# New fields not defaulted by jekyll new with the minima theme
+googlescholar_username: citations?user=D28sigkAAAAJ&hl=en
+
 # Build settings
-markdown: kramdown
-theme: minima
+# Removed minima theme as it is now a regular theme.
+# markdown: kramdown
+# theme: minima
 plugins:
   - jekyll-feed
 
