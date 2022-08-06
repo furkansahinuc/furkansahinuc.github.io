@@ -21,6 +21,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://furkansahinuc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Furkansahinuc
 github_username:  furkansahinuc
+linkedin_username: furkan-sahinuc
 
 # Fields minima uses, but are not defaulted with the jekyll new command.
 author: Furkan Şahinuç
