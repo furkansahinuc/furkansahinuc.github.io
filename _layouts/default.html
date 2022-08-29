@@ -12,8 +12,9 @@
         {{ content }}
       </div>
     </main>
-
-    {%- include footer.html -%}
+    {%- if page.layout == "home" -%}
+      {%- include footer.html -%}
+    {%- endif -%}
 
   </body>
 

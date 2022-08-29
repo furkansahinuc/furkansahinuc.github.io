@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+.project_button{
+  position: relative;
+  display: flex;
+  width: 50px;
+  height: 25px;
+  /* margin: 0 15px; */
+  perspective: 1000px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+}
+.project_button:before,
+.project_button:after{
+  position: absolute;
+  content: attr(label) " ";
+  height: 25px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.project_button:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(10px);
+}
+.project_button:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(10px);
+}
+.project_button:hover{
+  transform: translateZ(-10px) rotateX(-90deg);
+}
+#parent { white-space: nowrap; }
+.child { display: inline-block; }
+#space {margin: 0 10px;}

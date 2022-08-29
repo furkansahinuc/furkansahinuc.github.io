@@ -1,0 +1,110 @@
+<link rel="stylesheet" href="{{ "/assets/modal_image.css" | relative_url }}">
+<style>
+  .holder{
+    text-align: center;
+  }
+  .bottom{
+    padding-bottom: 30px; 
+  }
+</style>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+  <div>Fenerbahçe</div>
+  <div><img class="myImages" id="myImg" style="transform:rotate(-90deg);"  src="/misc/scarfs/images/fener.JPEG"  alt="Fenerbahçe" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Fenerbahçe Bilkent</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/fener_bilkent.JPEG"  alt="Fenerbahçe Bilkent" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Milan</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/milan.JPEG"  alt="Milan" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Inter</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/inter.JPEG"  alt="Inter" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Roma</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(-90deg);"  src="/misc/scarfs/images/roma.JPEG"  alt="Roma" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Fiorentina</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(-90deg);"  src="/misc/scarfs/images/fiorentina.JPEG"  alt="Fiorentina" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Marseille</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/marseille.JPEG"  alt="Marseille" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>PSG</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);" src="/misc/scarfs/images/psg.JPEG"  alt="PSG" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Barcelona</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/barca.JPEG"  alt="Barcelona" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Red Star</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/redstar.JPEG"  alt="Red Star" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Copenhagen</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(-90deg);"  src="/misc/scarfs/images/copenhagen.JPEG"  alt="Copenhagen" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Shakhtar Donetsk</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/shakhtar.JPEG"  alt="Shakhtar Donetsk" width="192px" height="256px"></div>
+</div>
+
+<div class="holder bottom" style="float:left; margin:0px 50px;">
+    <div>Boston Celtics</div>
+    <div><img class="myImages" id="myImg" style="transform:rotate(90deg);"  src="/misc/scarfs/images/celtics.JPEG"  alt="Boston Celtics" width="192px" height="256px"></div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script src="/assets/modal_image.js"></script>
+
+<!-- <script>
+// create references to the modal...
+var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
+var modalImg = document.getElementById("img01");
+// and the caption in the modal
+var captionText = document.getElementById("caption");
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script> -->

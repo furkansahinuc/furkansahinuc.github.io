@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="{{ "/assets/project_button.css" | relative_url }}">
+<!-- For github and paper icons "font awesome" css file is used.  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div id="parent">
+
+    <div class="child"><span id="space"></span></div>
+
+    <div class="child"><i class="fa fa-github" style="font-size:36px"></i></div>
+    <div class="child"><a class="project_button" href="{{ include.link }}" label="{{ include.link_type }}"></a></div>
+
+    <div class="child"><span id="space"></span></div>
+
+    <div class="child"><i class="fa fa-file-text-o" style="font-size:36px"></i></div>
+    <div class="child"><a class="project_button" href="{{ include.doi }}" label="Paper"></a></div>
+</div>
