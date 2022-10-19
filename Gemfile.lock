@@ -261,6 +261,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
+  jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
   kramdown-parser-gfm
   tzinfo (~> 1.2)
@@ -269,4 +270,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.19
+   2.3.24

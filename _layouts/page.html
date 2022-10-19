@@ -11,6 +11,8 @@ layout: default
   <div class="post-content">
     {% if page.title=="Publications" %}
       {{ content }}
+    {% elsif page.title == "CV" %}
+      {%- include cv.html -%}
     {% else %}
       {{ content }}
     {% endif %}

@@ -6,6 +6,11 @@ order: 3
 ---
 
 ## Journal Articles
+
+* **Şahinuç, F.**, Yilmaz, E. H., Toraman, C., & Koç, A. (2022). The effect of gender bias on hate speech detection. *Signal, Image and Video Processing*.
+
+{% include project_button.html link_type="-" link="" doi="https://doi.org/10.1007/s11760-022-02368-z" %}
+
 * Şenel, L. K., **Şahinuç, F.**, Yücesoy, V., Schütze, H., Çukur, T., & Koç, A. (2022). Learning Interpretable
 Word Embeddings via Bidirectional Alignment of Embedding Dimensions with Semantic Concepts.
 *Information Processing & Management*, 59(3), 102925.
@@ -50,6 +55,10 @@ for Harmful Tweet Detection. In *Working notes of CLEF 2022 - Conference and Lab
 
 {% include project_button.html link_type="-" link="" doi="https://ceur-ws.org/Vol-3180/paper-59.pdf" %}
 
+* Ozcelik, O., Yilmaz, E. H., **Şahinuç, F.**, & Toraman, C. (2022). Slot Filling for Voice Assistants. In *30th Signal Processing and Communications Applications Conference (SIU)*, (pp. 1–4).
+
+{% include project_button.html link_type="-" link="" doi="https://doi.org/10.1109/SIU55565.2022.9864737" %}
+
 * **Şahinuç, F.**, & Toraman, C. (2021). Tweet Length Matters: A Comparative Analysis on Topic Detection in
 Microblogs. In *European Conference on Information Retrieval (ECIR)*, (pp. 471–478).
 
@@ -66,6 +75,15 @@ Systems. In *28th Signal Processing and Communications Applications Conference (
 {% include project_button.html link_type="-" link="" doi="https://doi.org/10.1109/SIU49456.2020.9302308" %}
 
 ## Arxiv Preprints
+
+* Toraman, C., Ozcelik, O., **Şahinuç, F.**, & Can, F. (2022). Not Good Times for Lies: Misinformation Detection on
+the Russia-Ukraine War, COVID-19, and Refugees.
+
+{% include project_button.html link_type="Data" link="https://github.com/avaapm/mide22" doi="https://arxiv.org/abs/2210.05401" %}
+
+* Sevim, N., Ozyedek, E. O., **Şahinuç, F.**, & Koç, A. (2022). Fast-FNet: Accelerating Transformer Encoder Models via Efficient Fourier Layers.
+
+{% include project_button.html link_type="Code" link="" doi="https://arxiv.org/abs/2209.12816" %}
 
 * Toraman, C., **Şahinuç, F.**, Yilmaz, E. H., & Ozcelik, O. (2022). Impact of Tokenization on Language Models:
 An Analysis for Turkish.
