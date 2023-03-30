@@ -7,12 +7,17 @@ order: 3
 
 ## Journal Articles
 
+* Toraman, C., **Şahinuç, F.**, Yilmaz, E. H. & Ozcelik, O. (2023). Impact of Tokenization on Language Models:
+An Analysis for Turkish. *ACM Transactions on Asian and Low-Resource Language Information Processing.* 22(4), 1-21.
+
+{% include project_button.html link_type="Models" link="https://huggingface.co/ctoraman" doi="https://doi.org/10.1145/3578707" %}
+
 * **Şahinuç, F.** & Koç, A. (2022). Fractional Fourier Transform Meets Transformer Encoder. *IEEE Signal Processing Letters*. 29, 2258-2262.
 
 {% include project_button.html link_type="Code" link="https://github.com/koc-lab/FrFNet" doi="https://doi.org/10.1109/LSP.2022.3217975" %}
 
 
-* **Şahinuç, F.**, Yilmaz, E. H., Toraman, C. & Koç, A. (2022). The effect of gender bias on hate speech detection. *Signal, Image and Video Processing*.
+* **Şahinuç, F.**, Yilmaz, E. H., Toraman, C. & Koç, A. (2022). The Effect of Gender Bias on Hate Speech Detection. *Signal, Image and Video Processing*.
 
 {% include project_button.html link_type="-" link="" doi="https://doi.org/10.1007/s11760-022-02368-z" %}
 
@@ -23,7 +28,7 @@ Word Embeddings via Bidirectional Alignment of Embedding Dimensions with Semanti
 {% include project_button.html link_type="Code" link="https://github.com/lksenel/biimp" doi="https://doi.org/10.1016/j.ipm.2022.102925" %}
 
 * Sevim, N., **Şahinuç, F.** & Koç, A. (2022). Gender Bias in Legal Corpora and Debiasing it. *Natural Language
-Engineering*, 1–34.
+Engineering*, 29(2), 449-482.
 
 {% include project_button.html link_type="Code" link="https://github.com/koc-lab/legalbias" doi="https://doi.org/10.1017/S1351324922000122" %}
 
@@ -47,7 +52,7 @@ Embeddings While Preserving Semantic Structure. *Natural Language Engineering*, 
 * Toraman, C., **Şahinuç, F.** & Yilmaz, E. H. (2022). Large-scale Hate Speech Detection with Cross-domain
 Transfer. *In Proceedings of The Language Resources and Evaluation Conference (LREC)*, (pp. 2215–2225).
 
-{% include project_button.html link_type="Data" link="https://github.com/avaapm/hatespeech" doi="https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.238.pdf" %}
+{% include project_button.html link_type="Data" link="https://github.com/avaapm/hatespeech" doi="https://aclanthology.org/2022.lrec-1.238" %}
 
 * Toraman, C., **Şahinuç, F.** & Yilmaz, E. H. (2022). BlackLivesMatter2020: An Analysis of Deleted and
 Suspended Users in Twitter. In *14th ACM Web Science Conference 2022*, (pp. 290–295).
@@ -89,8 +94,3 @@ the Russia-Ukraine War, COVID-19, and Refugees.
 * Sevim, N., Ozyedek, E. O., **Şahinuç, F.** & Koç, A. (2022). Fast-FNet: Accelerating Transformer Encoder Models via Efficient Fourier Layers.
 
 {% include project_button.html link_type="Code" link="" doi="https://arxiv.org/abs/2209.12816" %}
-
-* Toraman, C., **Şahinuç, F.**, Yilmaz, E. H. & Ozcelik, O. (2022). Impact of Tokenization on Language Models:
-An Analysis for Turkish.
-
-{% include project_button.html link_type="Models" link="https://huggingface.co/ctoraman" doi="https://arxiv.org/abs/2204.08832" %}
