@@ -7,12 +7,16 @@ order: 3
 
 ## Conference Proceedings
 
-* Toraman, C., Ozcelik, O., **Şahinuç, F.** & Can, F. (2024). MiDe22: An Annotated Multi-Event Tweet Dataset for Misinformation Detection. *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)*, (pp. 11283–11295).
+* **Şahinuç, F.**, Kuznetsov, I., Hou, Y., & Gurevych, I. (2024). Systematic Task Exploration with LLMs: A Study in Citation Text Generation. In *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, (pp. 4832–4855).
+
+{% include project_button.html link_type="Code" link="https://github.com/UKPLab/acl2024-citation-text-generation" doi="https://aclanthology.org/2024.acl-long.265" %}
+
+* Toraman, C., Ozcelik, O., **Şahinuç, F.** & Can, F. (2024). MiDe22: An Annotated Multi-Event Tweet Dataset for Misinformation Detection. In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)*, (pp. 11283–11295).
 
 {% include project_button.html link_type="Data" link="https://github.com/metunlp/MiDe22" doi="https://aclanthology.org/2024.lrec-main.986" %}
 
 * Toraman, C., **Şahinuç, F.** & Yilmaz, E. H. (2022). Large-scale Hate Speech Detection with Cross-domain
-Transfer. *In Proceedings of The Language Resources and Evaluation Conference (LREC)*, (pp. 2215–2225).
+Transfer. In *Proceedings of The Language Resources and Evaluation Conference (LREC)*, (pp. 2215–2225).
 
 {% include project_button.html link_type="Data" link="https://github.com/avaapm/hatespeech" doi="https://aclanthology.org/2022.lrec-1.238" %}
 
