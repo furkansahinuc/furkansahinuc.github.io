@@ -7,6 +7,10 @@ order: 3
 
 ## Conference Proceedings
 
+* **Şahinuç, F.**, Tran, T.T., Grishina, Y., Chen, B., Hou, Y., & Gurevych, I. (2024). Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards. (To appear in EMNLP 2024 Main)
+
+{% include project_button.html link_type="Code" link="https://github.com/UKPLab/arxiv2024-leaderboard-generation" doi="https://arxiv.org/abs/2409.12656" %}
+
 * **Şahinuç, F.**, Kuznetsov, I., Hou, Y., & Gurevych, I. (2024). Systematic Task Exploration with LLMs: A Study in Citation Text Generation. In *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, (pp. 4832–4855).
 
 {% include project_button.html link_type="Code" link="https://github.com/UKPLab/acl2024-citation-text-generation" doi="https://aclanthology.org/2024.acl-long.265" %}
