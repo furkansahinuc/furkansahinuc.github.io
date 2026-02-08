@@ -2,15 +2,54 @@
 <!-- For github and paper icons "font awesome" css file is used.  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="{{ "/assets/modal_image.css" | relative_url }}">
+<style>
+  #parent {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+
+  .holder{
+    text-align: center;
+  }
+  .bottom{
+    padding-bottom: 30px; 
+  }
+</style>
+
 <div id="parent">
 
-    <div class="child"><span id="space"></span></div>
+    {% if include.figure %}
+    <div  class="child">
+        <div class="holder bottom" style="margin:0px 50px;">
+        <div><img class="myImages" id="myImg" src="{{include.figure}}" height="256px"></div>
+        </div>
+    </div>
+    {% endif %}
 
+
+    {% if include.link %}
+    <div class="child"><span id="space"></span></div>
     <div class="child"><i class="fa fa-github" style="font-size:36px"></i></div>
     <div class="child"><a class="project_button" href="{{ include.link }}" label="{{ include.link_type }}"></a></div>
+    {% endif %}
 
     <div class="child"><span id="space"></span></div>
-
     <div class="child"><i class="fa fa-file-text-o" style="font-size:36px"></i></div>
     <div class="child"><a class="project_button" href="{{ include.doi }}" label="Paper"></a></div>
+
+    {% if include.webpage %}
+    <div class="child"><span id="space"></span></div>
+    <div class="child"><i class="fa fa-globe" style="font-size:36px"></i></div>
+    <div class="child"><a class="project_button" href="{{ include.webpage }}" label="Page"></a></div>
+    {% endif %}
 </div>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script src="/assets/modal_image.js"></script>
