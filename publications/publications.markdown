@@ -7,6 +7,11 @@ order: 3
 
 ## Conference Proceedings
 
+* **[C11]** **F. Şahinuç**, S. Dutta, and I. Gurevych. (2026). Reward Modeling for Scientific Writing Evaluation. In *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, (pp. 12438-12479).
+
+{% include project_button.html figure="/publications/figures/reward-models.JPG" link_type="Code" link="https://github.com/UKPLab/acl2026-expert-rm" doi="https://aclanthology.org/2026.acl-long.567/" webpage="https://ukplab.github.io/acl2026-expert-rm/" %}
+
+
 * **[C10]** **F. Şahinuç**, T. T. Tran, Y. Grishina, B. Chen, Y. Hou, and I. Gurevych. (2024). Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards. In *Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing*, (pp. 7963–7977).
 
 {% include project_button.html figure="/publications/figures/emnlp2024-leaderboard.jpg" link_type="Code" link="https://github.com/UKPLab/emnlp2024-leaderboard-generation" doi="https://doi.org/10.18653/v1/2024.emnlp-main.453" %}
@@ -123,10 +128,6 @@ order: 3
 <br />
 
 ## Preprints
-
-* **[P2]** **F. Şahinuç**, S. Dutta, and I. Gurevych. (2026). Reward Modeling for Scientific Writing Evaluation. arXiv:2601.11374.
-
-{% include project_button.html figure="/publications/figures/reward-models.JPG" link_type="Code" link="https://github.com/UKPLab/arxiv2026-expert-rm" doi="https://arxiv.org/abs/2601.11374" %}
 
 * **[P1]** **F. Şahinuç**, S. Dutta, and I. Gurevych. (2025). Expert Preference-based Evaluation of Automated Related Work Generation. arXiv:2508.07955.
 
