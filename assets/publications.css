@@ -1,0 +1,143 @@
+/* Publications page. Colors follow the site theme (minima). */
+
+.pub-scholar {
+  color: #555;
+}
+
+.pub-section {
+  margin: 50px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.pub-section:first-of-type {
+  margin-top: 20px;
+}
+
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* One card per paper: figure on the left, text on the right. */
+.pub {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 22px 0;
+  margin: 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pub:last-child {
+  border-bottom: none;
+}
+
+/* Fixed frame so figures of any shape line up; the whole figure stays visible. */
+.pub-figure {
+  flex: 0 0 200px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pub-figure img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.pub-id {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #828282;
+}
+
+.pub-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.6;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #e8f0fb;
+  color: #1d5bb0;
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+
+.pub-authors,
+.pub-venue {
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: #444;
+}
+
+.pub-authors strong {
+  color: #111;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  font-size: 0.85rem;
+  color: #333;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.pub-link:visited {
+  color: #333;
+}
+
+.pub-link:hover {
+  color: #2a7ae2;
+  border-color: #2a7ae2;
+  text-decoration: none;
+}
+
+/* Phones: figure above the text, full width. */
+@media (max-width: 600px) {
+  .pub {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pub-figure {
+    flex: none;
+    width: 100%;
+    height: 160px;
+  }
+}

@@ -1,0 +1,10 @@
+<!-- Click-to-enlarge popup for images with class "zoomable". Include once per page. -->
+<link rel="stylesheet" href="{{ "/assets/modal_image.css" | relative_url }}">
+
+<div id="imageModal" class="modal">
+  <span class="close" aria-label="Close">&times;</span>
+  <img class="modal-content" id="modalImage" alt="">
+  <div id="caption"></div>
+</div>
+
+<script src="{{ "/assets/modal_image.js" | relative_url }}"></script>

@@ -36,6 +36,14 @@ googlescholar_username: citations?user=D28sigkAAAAJ&hl=en
 plugins:
   - jekyll-feed
 
+exclude:
+  - scripts
+  - dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

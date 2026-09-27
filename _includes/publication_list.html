@@ -1,0 +1,45 @@
+{%- comment -%}
+  Publication list built from _data/publications.yml (see that file for the fields).
+  Your name is bolded in author lists.
+{%- endcomment -%}
+{%- assign me = "F. Şahinuç" -%}
+{%- assign me_bold = "<strong>" | append: me | append: "</strong>" -%}
+{%- assign link_types = "paper,code,data,models,page" | split: "," -%}
+<link rel="stylesheet" href="{{ "/assets/publications.css" | relative_url }}">
+
+<p class="pub-scholar">
+  Full list on <a href="https://scholar.google.com/{{ site.googlescholar_username | escape }}">Google Scholar</a>.
+</p>
+
+{% for section in site.data.publications %}
+<h2 class="pub-section">{{ section.section }}</h2>
+<ol class="pub-list">
+{%- for pub in section.items %}
+  <li class="pub">
+    {%- if pub.figure %}
+    <div class="pub-figure">
+      <img class="zoomable" src="{{ '/publications/figures/' | append: pub.figure | relative_url }}" alt="{{ pub.title | escape }}" loading="lazy" decoding="async">
+    </div>
+    {%- endif %}
+    <div class="pub-body">
+      <div class="pub-badges">
+        <span class="pub-id">{{ pub.id }}</span>
+        <span class="pub-badge">{{ pub.short | escape }} {{ pub.year }}</span>
+      </div>
+      <div class="pub-title">{{ pub.title | escape }}</div>
+      <div class="pub-authors">{{ pub.authors | escape | replace: me, me_bold }}</div>
+      <div class="pub-venue"><em>{{ pub.venue | escape }}</em>{% if pub.details %}, {{ pub.details | escape }}{% endif %}.</div>
+      <div class="pub-links">
+        {%- for type in link_types -%}
+        {%- if pub[type] %}
+        <a class="pub-link" href="{{ pub[type] }}">{% include pub_icon.html name=type %}{{ type | capitalize }}</a>
+        {%- endif -%}
+        {%- endfor %}
+      </div>
+    </div>
+  </li>
+{%- endfor %}
+</ol>
+{% endfor %}
+
+{% include image_modal.html %}

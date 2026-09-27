@@ -1,0 +1,39 @@
+{%- comment -%}
+  Photo grid for a collection in _data/<folder>.yml.
+  Thumbnails live in misc/<folder>/thumbs/ (made by scripts/resize-photos.ps1);
+  if one is missing, the full image is shown instead.
+  Parameters: folder (e.g. "jerseys"), width and height of a thumbnail box.
+  See misc/jerseys/jerseys.markdown for an example.
+  The data file is either a flat list of items (name, file), or a list of
+  groups (group, items) that are shown under their own headings.
+{%- endcomment -%}
+{%- assign folder = include.folder -%}
+{%- assign base = "/misc/" | append: folder -%}
+{%- assign entries = site.data[folder] -%}
+{%- if entries.first.items -%}
+  {%- assign groups = entries -%}
+{%- else -%}
+  {%- assign groups = "" | split: "" | push: entries -%}
+{%- endif -%}
+<link rel="stylesheet" href="{{ "/assets/gallery.css" | relative_url }}">
+
+{% for group in groups %}
+{%- if group.group %}
+<h2 class="gallery-group">{{ group.group }}</h2>
+{%- endif %}
+{%- assign items = group.items | default: group %}
+<div class="gallery">
+{%- for item in items %}
+  <figure class="gallery-item">
+    <figcaption>{{ item.name }}</figcaption>
+    <img class="zoomable"
+         src="{{ base | append: '/thumbs/' | append: item.file | relative_url }}"
+         data-full="{{ base | append: '/images/' | append: item.file | relative_url }}"
+         alt="{{ item.name | escape }}" width="{{ include.width }}" height="{{ include.height }}"
+         loading="lazy" decoding="async" onerror="this.onerror=null;this.src=this.dataset.full">
+  </figure>
+{%- endfor %}
+</div>
+{% endfor %}
+
+{% include image_modal.html %}

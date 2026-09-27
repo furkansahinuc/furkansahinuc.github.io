@@ -1,0 +1,57 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px 20px;
+  text-align: center;
+}
+
+.gallery-group {
+  font-size: 1.75rem;
+  margin: 70px 0 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.gallery-group:first-of-type {
+  margin-top: 0;
+}
+
+/* Stack caption over photo, bottom-aligned so photos in a row line up
+   even when one caption wraps to two lines. */
+.gallery-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* The theme shrinks figcaption text; keep names at normal size. */
+.gallery-item figcaption {
+  font-size: inherit;
+  margin-bottom: 5px;
+}
+
+/* The theme makes figure images block-level, so center them with margins. */
+.gallery-item img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Phones: two smaller columns instead of one long column. */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 12px;
+  }
+
+  .gallery-item figcaption {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+
+  .gallery-group {
+    font-size: 1.4rem;
+    margin-top: 45px;
+  }
+}

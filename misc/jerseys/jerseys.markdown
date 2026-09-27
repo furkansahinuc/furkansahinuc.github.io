@@ -1,6 +1,6 @@
 ---
-layout: post
+layout: default
 permalink: misc/jerseys
 ---
 
-{% include jerseys.html %}
+{% include gallery.html folder="jerseys" width=192 height=256 %}

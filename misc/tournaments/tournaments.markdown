@@ -1,6 +1,6 @@
 ---
-layout: post
+layout: default
 permalink: misc/tournaments
 ---
 
-{% include tournaments.html %}
+{% include gallery.html folder="tournaments" width=192 height=256 %}

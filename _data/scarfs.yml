@@ -1,0 +1,92 @@
+- group: Specials
+  items:
+    - name: "Fenerbahçe"
+      file: fener.JPEG
+    - name: "Fenerbahçe Bilkent"
+      file: fener_bilkent.JPEG
+    - name: "Euro 2024 Final"
+      file: euro2024_final.JPEG
+
+- group: England
+  items:
+    - name: "Liverpool"
+      file: lpool.JPEG
+    - name: "Arsenal"
+      file: arsenal.JPEG
+    - name: "Manchester United"
+      file: manu.JPEG
+    - name: "Chelsea"
+      file: chelsea.JPEG
+    - name: "Manchester City"
+      file: mancity.JPEG
+    - name: "Tottenham"
+      file: spurs.JPEG
+    - name: "Everton"
+      file: everton.JPEG
+    - name: "Aston Villa"
+      file: aston_villa.JPEG
+    - name: "West Ham United"
+      file: west_ham.JPEG
+    - name: "Leicester City"
+      file: leicester.JPEG
+    - name: "Wolverhampton"
+      file: wolves.JPEG
+    - name: "West Bromwich Albion"
+      file: west_brom.JPEG
+    - name: "Birmingham City"
+      file: birmingham.JPEG
+
+- group: Germany
+  items:
+    - name: "B. Dortmund"
+      file: dortmund.JPEG
+    - name: "SV Darmstadt 98"
+      file: darmstadt.JPEG
+    - name: "Eintracht Frankfurt"
+      file: frankfurt.JPEG
+    - name: "Bayern Munich"
+      file: bayern.JPEG
+    - name: "1860 Munich"
+      file: 1860_munich.JPEG
+    - name: "VfB Stuttgart"
+      file: stuttgart.JPEG
+    - name: "Mainz 05"
+      file: mainz.JPEG
+
+- group: Spain
+  items:
+    - name: "Barcelona"
+      file: barca.JPEG
+    - name: "Espanyol"
+      file: espanyol.JPEG
+
+- group: Italy
+  items:
+    - name: "Inter"
+      file: inter.JPEG
+    - name: "Milan"
+      file: milan.JPEG
+    - name: "Roma"
+      file: roma.JPEG
+    - name: "Fiorentina"
+      file: fiorentina.JPEG
+
+- group: France
+  items:
+    - name: "Marseille"
+      file: marseille.JPEG
+    - name: "PSG"
+      file: psg.JPEG
+
+- group: Rest of the World
+  items:
+    - name: "Ankaragücü"
+      file: ank.JPEG
+    - name: "Red Star"
+      file: redstar.JPEG
+    - name: "Copenhagen"
+      file: copenhagen.JPEG
+    - name: "Shakhtar Donetsk"
+      file: shakhtar.JPEG
+    - name: "Boston Celtics"
+      file: celtics.JPEG

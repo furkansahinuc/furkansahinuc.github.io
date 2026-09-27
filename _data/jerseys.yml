@@ -1,0 +1,126 @@
+- group: National Teams
+  items:
+    - name: "Türkiye 2010"
+      file: turkiye.JPEG
+    - name: "Argentina 2022 WC Winner"
+      file: argentina.JPEG
+
+- group: Fenerbahçe Specials
+  items:
+    - name: "Fenerbahçe 2023 Special"
+      file: fener_2023_special.JPEG
+    - name: "FB Basketball 2025 EL Winner"
+      file: fener_basket_25.JPEG
+    - name: "Fenerbahçe 93-94 (Retro)"
+      file: fener_retro.JPEG
+    - name: "Fenerbahçe 2006-2007 (Retro)"
+      file: fener_retro_07.JPEG
+    - name: "Fenerbahçe Centenary 2007"
+      file: fener_100.JPEG
+
+- group: Fenerbahçe
+  items:
+    - name: "Fenerbahçe 2014-2015"
+      file: fener_15.JPEG
+    - name: "Fenerbahçe 2021-2022"
+      file: fener_22.JPEG
+    - name: "Fenerbahçe 2022-2023"
+      file: fener_23.JPEG
+    - name: "Fenerbahçe 2023-2024"
+      file: fener_24.JPEG
+    - name: "Fenerbahçe 2024-2025"
+      file: fener_25.JPEG
+    - name: "Fenerbahçe 2025-2026"
+      file: fener_26.JPEG
+
+- group: England
+  items:
+    - name: "Liverpool 2020-2021"
+      file: lpool.JPEG
+    - name: "Arsenal 2024-2025"
+      file: arsenal.JPEG
+    - name: "Man. United 2018-2019"
+      file: manu.JPEG
+    - name: "Chelsea 2018-2019"
+      file: chelsea.JPEG
+    - name: "Man. City 2019-2020"
+      file: mancity.JPEG
+    - name: "Tottenham 2018-2019"
+      file: spurs.JPEG
+    - name: "Everton 2022-2023"
+      file: everton.JPEG
+    - name: "Aston Villa 2025-2026"
+      file: aston_villa.JPEG
+    - name: "Leicester City 2025-2026"
+      file: leicester.JPEG
+    - name: "Southampton 2019-2020"
+      file: soton.JPEG
+    - name: "Leeds 2022-2023"
+      file: leeds.JPEG
+    - name: "Wolverhampton 2024-2025"
+      file: wolves.JPEG
+    - name: "Birmingham City 2025-2026"
+      file: birmingham.JPEG
+
+- group: Germany
+  items:
+    - name: "B. Dortmund 2016-2017"
+      file: bvb.JPEG
+    - name: "SV Darmstadt 98 2024-2025"
+      file: darmstadt.JPEG
+    - name: "Eintracht Frankfurt 2025-2026"
+      file: frankfurt.JPEG
+    - name: "Bayern Munich 2022-2023"
+      file: bayern.JPEG
+    - name: "Werder Bremen 2022-2023"
+      file: bremen.JPEG
+
+- group: Spain
+  items:
+    - name: "Barcelona PM 2022-2023"
+      file: barca.JPEG
+    - name: "Real Madrid 2017-2018"
+      file: real.JPEG
+    - name: "Athletic Club 2024-2025"
+      file: athletic.JPEG
+    - name: "Girona 2021-2022"
+      file: girona.JPEG
+
+- group: Italy
+  items:
+    - name: "Napoli 2018-2019"
+      file: napoli.JPEG
+    - name: "Inter 2020-2021"
+      file: inter.JPEG
+    - name: "Milan 2019-2020"
+      file: milan.JPEG
+    - name: "Juventus 2021-2022"
+      file: juve.JPEG
+
+- group: France
+  items:
+    - name: "Monaco 2020-2021"
+      file: monaco.JPEG
+    - name: "Marseille 2019-2020"
+      file: marseille.JPEG
+
+- group: Rest of the World
+  items:
+    - name: "Ankaragücü 2020-2021"
+      file: ank.JPEG
+    - name: "Benfica 2016-2017"
+      file: benfica.JPEG
+    - name: "Rangers 2022-2023"
+      file: rangers.JPEG
+    - name: "Dynamo Kyiv 2022-2023"
+      file: dynamokyiv.JPEG
+    - name: "Red Star 2019-2020"
+      file: redstar.JPEG
+    - name: "Atlanta United 2023-2024"
+      file: atlanta.JPEG
+    - name: "Palmeiras 2024"
+      file: palmeiras.JPEG
+    - name: "Chiangrdai Utd. 2023-2024"
+      file: chiangrai.JPEG
+    - name: "Boston Celtics 2019-2020"
+      file: celtics.JPEG
