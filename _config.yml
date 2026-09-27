@@ -35,6 +35,7 @@ googlescholar_username: citations?user=D28sigkAAAAJ&hl=en
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
   - scripts
